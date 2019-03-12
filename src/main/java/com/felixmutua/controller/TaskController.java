@@ -1,7 +1,6 @@
 package com.felixmutua.controller;
 
 import com.felixmutua.domain.Task;
-import com.felixmutua.repository.TaskRepository;
 import com.felixmutua.service.TaskService;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,4 +25,5 @@ public class TaskController {
 
         return this.taskService.save(task);
     }
+
 }
